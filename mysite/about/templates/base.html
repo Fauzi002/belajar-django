@@ -2,7 +2,7 @@
 <link href="{% static 'bootstrap/css/bootstrap.min.css' %}" rel="stylesheet">
 
 <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-  <a class="navbar-brand" href="#">MySite</a>
+  <a class="navbar-brand" href="#">Sipena</a>
   <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
@@ -40,32 +40,30 @@
     <div class="row">
       <!--Grid column-->
       <div class="col-lg-6 col-md-12 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Footer Content</h5>
+        <h5 class="text-uppercase">Tentang Kami</h5>
 
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Iste atque ea quis
-          molestias. Fugiat pariatur maxime quis culpa corporis vitae repudiandae aliquam
-          voluptatem veniam, est atque cumque eum delectus sint!
+          Sipena merupakan aplikasi gratis untuk ASN/Pegawai dalam mengelola data anggota dengan mudah
         </p>
       </div>
       <!--Grid column-->
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase">Links</h5>
+        <h5 class="text-uppercase">Company</h5>
 
         <ul class="list-unstyled mb-0">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="{% url 'index' %}" class="text-white">About</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="{% url 'blog' %}" class="text-white">Blog</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
+            <a href="{% url 'contact' %}" class="text-white">Contact</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#!" class="text-white">Privacy</a>
           </li>
         </ul>
       </div>
@@ -73,20 +71,20 @@
 
       <!--Grid column-->
       <div class="col-lg-3 col-md-6 mb-4 mb-md-0">
-        <h5 class="text-uppercase mb-0">Links</h5>
+        <h5 class="text-uppercase mb-0">Service</h5>
 
         <ul class="list-unstyled">
           <li>
-            <a href="#!" class="text-white">Link 1</a>
+            <a href="#!" class="text-white">Bootstrap</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 2</a>
+            <a href="#!" class="text-white">Term Of Service</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 3</a>
+            <a href="#!" class="text-white">Sitemap</a>
           </li>
           <li>
-            <a href="#!" class="text-white">Link 4</a>
+            <a href="#!" class="text-white">Privacy and Security</a>
           </li>
         </ul>
       </div>
@@ -95,13 +93,5 @@
     <!--Grid row-->
   </div>
   <!-- Grid container -->
-
-  <!-- Copyright -->
-  <div class="text-center p-4" style="background-color: rgba(0, 0, 0, 0.2);">
-    © 2020 Copyright:
-    <a class="text-white" href="https://mdbootstrap.com/">MDBootstrap.com</a>
-  </div>
-  <!-- Copyright -->
-</footer>
 
   <script src="{% static 'bootstrap/js/bootstrap.min.js' %}"></script>

@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 def index(request):
     context = {
-        'nama' : 'ini halaman home',
+        'nama' : 'Atur data ASN dengan mudah',
     }
     return render(request, 'index.html', context)

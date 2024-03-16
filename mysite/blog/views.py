@@ -4,6 +4,6 @@ from django.shortcuts import render
 
 def blog(request):
     context = {
-        'nama' : 'blog saya',
+        'nama' : 'Blog kami',
     }
     return render(request, 'blog/blog.html', context)
